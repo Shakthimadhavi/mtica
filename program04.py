@@ -1,15 +1,4 @@
-def checkArmstrongNumber(num):
-    num=str(num)
-    n=len(num)
-    total=0
-    for i in num:
-        total += int(i)**n
-    if int(num)==total:
-        return 1
-    else:
-        return 0
-inpNum=int(input())
-if checkArmstrongNumber(inpNum):
-    print("YES")
-else:
-    print("NO")
+s0="*\t*\n**\t**\n**\t**\n"
+s1="I said,\"This is a valid String.\""
+print("s0:\n",s0)
+print("s1:\n",s1)
