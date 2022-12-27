@@ -1,4 +1,10 @@
-x=int(input('enter an integer ==> '))
-y=x // 10
-z=y % 10
-print(x,',',y,z,sep=' ')
+##inp=input()
+##ans=[]
+##for i in inp:
+##    if i in '0123456789':
+##        ans.append(i)
+##print(*ans)
+
+inp=input()
+ans=[i for i in inp if i in '0123456789']
+print(*ans)
