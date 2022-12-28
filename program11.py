@@ -1,16 +1,13 @@
-string=input()
+##for i in range(5):
+##    inp=input()
+##    if inp:
+##        print("Hello "+inp)
+##    else:
+##        print("bye "+inp)
 
+lst1=["sedan", "SUV", "", "", "pickup",'', ' ']
 ans=[]
-for i in string:
-    if i in 'AEIOUaeiou':
+for i in lst1:
+    if i:
         ans.append(i)
-#print(*ans)
-
-ans=[i for i in string if i in 'AEIOUaeiou']
-#print(ans)
-
-ans=[i for i in string if i in 'AEIOUaeiou']
-#print(len(ans))
-
-ans=[i for i in string if i in 'AEIOUaeiou']
-print(*ans)
+print(ans)

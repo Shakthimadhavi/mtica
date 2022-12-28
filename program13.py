@@ -1,13 +1,9 @@
-string='''practice problems for
-list comprehension in python.'''
+def add_five(x):
+    temp=x+5
+    return temp
 
-
-ans=[]
-for i in string:
-    if i not in 'AEIOUaeiou':
-        ans.append(i)
-print(*ans)
-
-##inp=input()
-##ans=[i for i in inp if i in '0123456789']
-##print(*ans)
+nums=[11,22,33,44,55]
+result=list(map(add_five,nums))
+print(nums)
+print(result)
+print('-'*40)

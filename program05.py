@@ -1,7 +1,8 @@
-coord = [(3, 9),(2,4)]
-print('first tuple: {0[0]},{0[1]},second tuple: {1[0]},{1[1]}'.format(*coord))
+##lst1=[1,2,3,4,5]
+##ans=[i for i in lst1]
+##print(ans)
 
-print('{:#<30}'.format('Apple'))
-print('{:*>30}'.format('Apple'))
-print('{:^30}'.format('Apple'))
-print('{:*^30}'.format('Apple'))
+lst1=[1,2,3,4,5]
+for i in lst1:
+    ans.append(i)
+print(ans)

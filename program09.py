@@ -1,12 +1,10 @@
-ans=[]
-for i in range(1,1001):
-    if i%8==0:
-        ans.append(i)
-#print(ans)
+##lst=[10,15,2,25,30,3,40,4]
+##ans=[]
+##for i in lst:
+ ##   if i*i>50:
+##        ans.append(i*i)
+##print(ans)
 
-
-#print([ i for i in range(1,1001) if i%8==0 ])'''
-
-
-ans=[i for i in range(1,1001) if i%8==0 ]
+lst=[10,15,2,25,30,3,40,4]
+ans=[i*i for i in lst if i*i>50 ]
 print(ans)
